@@ -32,5 +32,6 @@ def won?(board)
   end
 end
 
-board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
-puts won?(board)
+def full?(board)
+  board.all?{|value| value == "X" or value == "O"}
+end
