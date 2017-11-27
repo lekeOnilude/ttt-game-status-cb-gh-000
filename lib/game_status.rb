@@ -33,8 +33,8 @@ def won?(board)
       #return false
     end
     puts "ade"
-    return false
   end
+  return false
 end
 
 def full?(board)
