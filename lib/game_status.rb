@@ -35,3 +35,6 @@ end
 def full?(board)
   board.all?{|value| value == "X" or value == "O"}
 end
+
+incomplete_board = ["X", " ", "X", "O", " ", "X", "O", " ", "O"]
+full?(incomplete_board)
