@@ -30,9 +30,7 @@ def won?(board)
       return win_combination
     else
       puts "me"
-      #return false
     end
-    puts "ade"
   end
   return false
 end
