@@ -37,4 +37,4 @@ def full?(board)
 end
 
 incomplete_board = ["X", " ", "X", "O", " ", "X", "O", " ", "O"]
-full?(incomplete_board)
+puts full?(incomplete_board)
