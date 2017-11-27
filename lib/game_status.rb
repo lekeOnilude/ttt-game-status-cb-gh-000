@@ -61,3 +61,6 @@ def winner(board)
     "O"
   end
 end
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+puts won?(board)
