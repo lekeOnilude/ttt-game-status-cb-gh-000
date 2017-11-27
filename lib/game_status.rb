@@ -36,5 +36,10 @@ def full?(board)
   board.all?{|value| value == "X" or value == "O"}
 end
 
-incomplete_board = ["X", "X", "X", "O", "X", "X", "O", "O", "O"]
-puts full?(incomplete_board)
+def draw?(board)
+  if won?(board) == false and full?(board)
+    true
+  else
+    false
+  end
+end
